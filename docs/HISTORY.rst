@@ -3,6 +3,13 @@ Changelog
 
 1.3.3 (unreleased)
 ~~~~~~~~~~~~~~~~~~
+
+- Added more strings classifiers items for this package
+  [macagua]
+
+- Updated Spanish translation
+  [macagua]
+
 - plone 4.3 compat
   [kiorky]
 

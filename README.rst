@@ -31,7 +31,7 @@ collective.blogging by adding it to the eggs line for your instance::
 After updating the configuration you need to run the ''bin/buildout'', which
 will take care of updating your system.
 
-.. _buildout: http://pypi.python.org/pypi/zc.buildout
+.. _buildout: https://pypi.org/project/zc.buildout
 
 Usage
 =====
@@ -72,8 +72,8 @@ Features
 
 - Collage integration via collective.collage.blogging collective.collage.blogging_ 
 
-.. _collective.bloggingmaps: http://plone.org/products/collective.bloggingmaps
-.. _collective.collage.blogging: http://plone.org/products/collective.collage.blogging
+.. _collective.bloggingmaps: https://pypi.org/project/collective.bloggingmaps
+.. _collective.collage.blogging: https://github.com/collective/collective.collage.blogging
 
 Examples
 ========
@@ -115,6 +115,8 @@ Contributors:
 
 - Rob Gietema (robgietema) - Dutch translation
 
+- Leonardo J. Caballero G. (macagua) - Spanish translation
+
 - Yusuke NAKAI (nyusuke at nagosui dot org) - Japanese translation
 
 - Sebas Vila-Marta (sebas at dipse dot upc dot edu) - Catalan translation
@@ -125,5 +127,5 @@ Contributors:
 
 Homepage: collective.blogging_.
 
-.. _collective.blogging: http://plone.org/products/collective.blogging
+.. _collective.blogging: https://github.com/collective/collective.blogging
 

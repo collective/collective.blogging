@@ -1,14 +1,17 @@
+# Marcos F. Romero <marcos.romero {at} inter-cultura {dot} com>, 2013.
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: collective.blogging\n"
 "POT-Creation-Date: 2013-05-29 18:44+0000\n"
-"PO-Revision-Date: 2010-10-01 16:54-0300\n"
-"Last-Translator: Marcos F. Romero <marcos.romero {at} inter-cultura {dot} com>\n"
-"Language-Team: Marcos F. Romero <marcos.romero {at} inter-cultura {dot} com>\n"
+"PO-Revision-Date: 2018-05-08 17:36-0400\n"
+"Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
+"Language-Team: es\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Language-Code: es\n"
 "Language-Name: Spanish\n"
 "Preferred-Encodings: utf-8 latin1\n"
@@ -18,7 +21,7 @@ msgstr ""
 
 #: ./../profiles/default/portlets.xml
 msgid "A portlet which displays a filter form."
-msgstr ""
+msgstr "Un portlet el cual muestra un filtro de formulario."
 
 #: ./../actions/autoblog.py:109
 msgid "Add Auto-Blog Action"
@@ -71,7 +74,7 @@ msgstr "Blog creado"
 #: ./../portlets/filter.py:76
 #: ./../profiles/default/portlets.xml
 msgid "Blog filter portlet"
-msgstr ""
+msgstr "Portlet de blog filtrado"
 
 #: ./../extenders.py:201
 msgid "Blogger's bio"
@@ -132,10 +135,11 @@ msgstr "Permitir comentarios"
 #: ./../portlets/share.py:52
 msgid "Enable portlet by content types wich entries are based on."
 msgstr ""
+"Habilite el portlet por tipos de contenido en los que se basan las entradas."
 
 #: ./../extenders.py:139
 msgid "Enable sharing"
-msgstr ""
+msgstr "Habilitar compartir"
 
 #: ./../portlets/share.py:46
 msgid "Enter portlet tile."
@@ -205,6 +209,8 @@ msgstr "Al seleccionarlo, el contenido será excluido de la navegación."
 #: ./../actions/autoblog.py:41
 msgid "If checked, new blog item will use entry-view template layout."
 msgstr ""
+"Si está marcado, el nuevo elemento del blog usará el diseño de la plantilla "
+"de vista de entrada del blog."
 
 #: ./../browser/help.pt:272
 msgid "Image entry"
@@ -248,7 +254,7 @@ msgstr "Sitios"
 
 #: ./../portlets/filter.pt:51
 msgid "Reset"
-msgstr ""
+msgstr "Reiniciar"
 
 #: ./../extenders.py:202
 msgid "Select a document with blogger's bio information."
@@ -265,11 +271,11 @@ msgstr "Seleccione los sitios de bookmarks sociales que quiere habilitar."
 
 #: ./../portlets/share.py:51
 msgid "Select types"
-msgstr ""
+msgstr "Seleccionar tipos"
 
 #: ./../actions/autoblog.py:40
 msgid "Set layout to entry-view"
-msgstr ""
+msgstr "Establecer el diseño para la vista de entrada"
 
 #: ./../portlets/share.py:85
 msgid "Share post"
@@ -348,7 +354,9 @@ msgstr "Ingrese el nombre del autor si usted está cargando esta entrada en nomb
 #. Default: "Paste embed code for example youtube, google or other video content."
 #: ./../extenders.py:240
 msgid "help_embed"
-msgstr "Pegue aquí el código de de inserción de YouTube, Google u otro contenido de video."
+msgstr ""
+"Pegue aquí el código de inserción de YouTube, Google u otro contenido de "
+"video."
 
 #. Default: "Tick to enable / disable blog contents count displaying."
 #: ./../portlets/filter.py:49
@@ -358,7 +366,9 @@ msgstr "Muestre u oculte la cantidad de entradas."
 #. Default: "Enter number of minutes for which will be cached filter options in the blog toolbar."
 #: ./../portlets/filter.py:43
 msgid "help_filter_cache"
-msgstr "Ingrese los minutos que permanecerán en cache las opciones de la barra de filtros."
+msgstr ""
+"Ingrese los minutos que permanecerán en cache las opciones de la barra de "
+"filtros."
 
 #. Default: "Tick this checkbox to display entry body text in the blog view."
 #: ./../extenders.py:68
@@ -368,17 +378,21 @@ msgstr "Indique si desea mostrar el texto completo de las entradas del blog."
 #. Default: "You can set maximal length of entry's description displayed in blog view. Note: This doesn't affect blog view if Full view option above is enabled."
 #: ./../extenders.py:93
 msgid "help_perex_length"
-msgstr "Puede indicar el largo máximo de la descripción de las entradas que se mostrarán en el blog.Nota: Esta opción no tiene efecto si está marcada la opción \"Vista completa\"."
+msgstr ""
+"Puede indicar el largo máximo de la descripción de las entradas que se "
+"mostrarán en el blog. Nota: Esta opción no tiene efecto si está marcada la "
+"opción \"Vista completa\"."
 
 #. Default: "If unchecked, blog's title and description will be hidden in the blog view."
 #: ./../extenders.py:80
 msgid "help_show_header"
-msgstr "Muestre u oculte el título y la descripción del blog en la vista de blog."
+msgstr ""
+"Muestre u oculte el título y la descripción del blog en la vista de blog."
 
 #. Default: "Add new content:"
 #: ./../portlets/manage.pt:20
 msgid "label_add_new_content"
-msgstr "Añadir contenido"
+msgstr "Añadir nuevo contenido:"
 
 #. Default: "Archives"
 #: ./../portlets/archive.pt:8
@@ -393,7 +407,7 @@ msgstr "Tamaño de la página"
 #. Default: "Blog enabled"
 #: ./../extenders.py:54
 msgid "label_blog_enabled"
-msgstr "Activar blog"
+msgstr "Activado blog"
 
 #. Default: "Blog Entry"
 #: ./../extenders.py:172
@@ -419,7 +433,7 @@ msgstr "Nombre del autor"
 #. Default: "Click to read full entry."
 #: ./../browser/blog_macros.pt:439
 msgid "label_click_to_read_full_entry"
-msgstr "Ver entrada completa"
+msgstr "Ver entrada completa."
 
 #. Default: "Comments (${comments})"
 #: ./../browser/blog_macros.pt:455
@@ -442,7 +456,7 @@ msgstr "Editar"
 #: ./../browser/blog_macros.pt:462
 #: ./../browser/entry_macros.pt:113
 msgid "label_edit_title"
-msgstr ""
+msgstr "Haga clic para editar esta entrada."
 
 #. Default: "Embed"
 #: ./../extenders.py:239
@@ -498,7 +512,7 @@ msgstr "Longitud de la descripción"
 #: ./../browser/blog_macros.pt:81
 #: ./../browser/document_byline.pt:33
 msgid "label_permalink"
-msgstr "Permalink"
+msgstr "Enlace permanente"
 
 #. Default: "Pictures"
 #: ./../portlets/manage.pt:39
@@ -529,30 +543,27 @@ msgstr "Mostrar título y descripción"
 #. Default: "Update"
 #: ./../portlets/filter.pt:47
 msgid "label_update"
-msgstr ""
+msgstr "Actualizar"
 
 #. Default: "Category"
 #: ./../portlets/filter.py:215
-#, fuzzy
 msgid "select_category_option"
-msgstr "Etiquetas:"
+msgstr "Categoría"
 
 #. Default: "Month"
 #: ./../portlets/filter.py:227
-#, fuzzy
 msgid "select_month_option"
-msgstr "Mes:"
+msgstr "Mes"
 
 #. Default: "Year"
 #: ./../portlets/filter.py:221
-#, fuzzy
 msgid "select_year_option"
-msgstr "Año:"
+msgstr "Año"
 
 #. Default: "All"
 #: ./../portlets/filter.pt:29
 msgid "string:filter-blog-all-${criteria/id}"
-msgstr ""
+msgstr "Todos"
 
 #. Default: "Blog archive"
 #: ./../profiles/default/portlets.xml
@@ -573,4 +584,3 @@ msgstr "Puede escribir en el blog"
 #: ./../profiles/default/portlets.xml
 msgid "title_manage_blog_portlet"
 msgstr "Gestión de blog"
-

@@ -1,7 +1,14 @@
 Changelog
 =========
 
-1.3.3 (unreleased)
+1.3.4 (unreleased)
+~~~~~~~~~~~~~~~~~~
+
+- Fix migration for sites w/o default folderish types available.
+  [jensens]
+
+
+1.3.3 (2013-08-29)
 ~~~~~~~~~~~~~~~~~~
 
 - Added more strings classifiers items for this package

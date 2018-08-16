@@ -81,7 +81,7 @@ function bloggingMonitorHash() {
 
 jq(document).ready(function () {
     /* Event handler for filter-form button */
-    jq("#filter-blog-form input[name=collective.blog.filter]").click(function(event) {
+    jq("#filter-blog-form input[name='collective.blog.filter']").click(function(event) {
         // stop default click of button
         event.preventDefault();
         event.stopPropagation();

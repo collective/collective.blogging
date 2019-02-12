@@ -4,6 +4,9 @@ Changelog
 1.3.4 (unreleased)
 ~~~~~~~~~~~~~~~~~~
 
+- Fix broken portlet if blog_path is non existent.
+  [jensens]
+
 - Fix migration for sites w/o default folderish types available.
   [jensens]
 

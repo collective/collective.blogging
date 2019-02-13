@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.4.0 (unreleased)
+1.4.0 (2019-02-13)
 ~~~~~~~~~~~~~~~~~~
 
 - Drop support for Plone 4.0-4.2 and Python 2.6.

@@ -1,8 +1,12 @@
 Changelog
 =========
 
-1.3.4 (unreleased)
+1.4.0 (unreleased)
 ~~~~~~~~~~~~~~~~~~
+
+- Drop support for Plone 4.0-4.2 and Python 2.6.
+  Wont test on those.
+  [jensens]
 
 - Fix broken portlet if blog_path is non existent.
   [jensens]

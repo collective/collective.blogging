@@ -70,7 +70,7 @@ Features
 
 - Google maps integration with events via collective.bloggingmaps_
 
-- Collage integration via collective.collage.blogging collective.collage.blogging_ 
+- Collage integration via collective.collage.blogging collective.collage.blogging_
 
 .. _collective.bloggingmaps: https://pypi.org/project/collective.bloggingmaps
 .. _collective.collage.blogging: https://github.com/collective/collective.collage.blogging
@@ -124,6 +124,8 @@ Contributors:
 - Hartmut Goebel (h dot goebel at goebel-consult dot de) - German translation
 
 - Mathieu Le Marec - Pasquet (kiorky at cryptelium dot net) - fixes, patches, buildout infra
+
+- Jens Klein - jens at bluedynamics dot com - keep alive
 
 Homepage: collective.blogging_.
 

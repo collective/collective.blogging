@@ -4,7 +4,8 @@ Changelog
 1.4.1 (unreleased)
 ~~~~~~~~~~~~~~~~~~
 
-- Nothing changed yet.
+- Prevent a ``MissingValue`` to crash the archive portlet.
+  [jensens]
 
 
 1.4.0 (2019-02-13)

@@ -96,7 +96,10 @@ class Renderer(base.Renderer):
 
     def __init__(self, *args):
         base.Renderer.__init__(self, *args)
-        self.portal_state = getMultiAdapter((self.context, self.request), name=u'plone_portal_state')
+        self.portal_state = getMultiAdapter(
+            (self.context, self.request),
+            name=u'plone_portal_state',
+        )
         self.tools = getMultiAdapter((self.context, self.request), name=u'plone_tools')
 
     def update(self):
@@ -126,6 +129,8 @@ class Renderer(base.Renderer):
         base_url = '%s?publish_year=' % self.blog_url
         archives = {}
         for entry in entries:
+            if not entry.publish_year:  # MissingValue evaluates bool False
+                continue
             year = archives.get(
                 entry.publish_year,
                 {'count': 0, 'entries': {}}
@@ -144,8 +149,17 @@ class Renderer(base.Renderer):
                 'year'  : archive,
                 'count' : archives[archive]['count'],
                 'url'   : year_url,
-                'months': sorted([(m, c, '%s&publish_month=%s' % (year_url, m), PLMF(ts.month_msgid(m), default=ts.month_english(m))) \
-                                    for m,c in archives[archive]['entries'].items()], reverse=True)
+                'months': sorted(
+                    [
+                        (
+                            m,
+                            c, '%s&publish_month=%s' % (year_url, m),
+                            PLMF(ts.month_msgid(m), default=ts.month_english(m))
+                        )
+                        for m, c in archives[archive]['entries'].items()
+                    ],
+                    reverse=True,
+                )
             })
         return sorted(result, reverse=True)
 
